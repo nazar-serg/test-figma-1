@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/iconsfont.css">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Test - Figma</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container container">
+      <div class="header__logo">
+        <img src="img/logo.png" alt="logo">
+      </div>
+      <span class="header__burger" onclick="openNav()">&#9776;</span>
+      <div class="header__menu menu">
+        <nav id="myNav" class="menu__body">
+          <a href="javascript:void(0)" class="menu__closebtn" onclick="closeNav()">&times;</a>
+          <div class="menu__overlay-content">
+          <ul>
+            <li><a href="#">ГЛАВНАЯ</a></li>
+            <li><a href="#">ГАЛЕРЕЯ</a></li>
+            <li><a href="#">ПРОЕКТЫ</a></li>
+            <li><a href="#">СЕРТИФИКАТЫ</a></li>
+            <li><a href="#">КОНТАКТЫ</a></li>
+          </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <div class="content">
+    <div class="slider__container container">
+      <div class="slider__content">
+        <div class="slider__text">
+          <div class="slider__overwrap">
+            <div class="slider__title">
+              <h1><span>PROJECT</span><br>HOME</h1>
+            </div>
+            <div class="slider__str column">
+              <div class="column__left"></div>
+              <div class="column__right"></div>
+            </div>
+            <div class="slider__number number">
+              <div class="number__left">01</div>
+              <span>/</span>
+              <div class="number__right">02</div>
+            </div>
+          </div>
+        </div>
+        <div class="slider__img">
+          <img src="img/slider.jpg" alt="Slider 1">
+          <a href="#" class="slider__btn btn-white">ВЗГЛЯНУТЬ</a>
+        </div>
+      </div>
+    </div>
+    <div class="about">
+      <div class="about__container container">
+        <div class="about__inner">
+          <div class="about__img-box">
+            <div class="about__img-item">
+              <img class="about__img about__img-1" src="img/1.jpg" alt="">
+              <img class="about__img about__img-2" src="img/2.jpg" alt="">
+            </div>
+            <div class="about__img-item">
+              <img class="about__img about__img-3" src="img/3.jpg" alt="">
+            </div>
+          </div>
+          <div class="about__content">
+            <div class="about__title">
+              <h2>О компании</h2>
+            </div>
+            <div class="about__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </div>
+            <a href="#" class="about__btn btn-white">ЧИТАТЬ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main-goals">
+      <div class="main-goals__container container">
+        <div class="main-goals__title">
+          <h2>Основные задачи</h2>
+        </div>
+        <div class="main-goals__content">
+          <div class="main-goals__column column-goal">
+            <p class="column-goal__number">1</p>
+            <div class="column-goal__text">
+              <p>Создание комфортных условий и повышение качества обслуживания клиентов</p>
+            </div>
+          </div>
+          <div class="main-goals__column column-goal">
+            <p class="column-goal__number">2</p>
+            <div class="column-goal__text">
+              <p>Постоянно совершенствовать качество предоставляемых услуг путем обучения персонала, закупки нового оборудования и усиленной рекламы на рынке</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="our-projects">
+      <div class="our-projects__container container">
+        <div class="our-projects__title">
+          <h2>Наши проекты</h2>
+        </div>
+        <div class="our-projects__body">
+          <div class="our-projects__line">
+            <div class="img-project">
+              <img src="img/our-project-2.jpg" alt="">
+              <div class="img-project__overlay">
+                <div class="img-project__text">
+                  <p>ДОСУГОВЫЙ ЦЕНТР</p>
+                  <a href="#" class="img-project__btn">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="img-project">
+              <img src="img/our-project-1.jpg" alt="">
+              <div class="img-project__overlay">
+                <div class="img-project__text">
+                  <p>ДОСУГОВЫЙ ЦЕНТР</p>
+                  <a href="#" class="img-project__btn">Подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="our-projects__line">
+            <div class="img-project">
+              <img src="img/our-project-3.jpg" alt="">
+              <div class="img-project__overlay">
+                <div class="img-project__text text-less">
+                  <p>ДОСУГОВЫЙ
+                    <br>ЦЕНТР</p>
+                  <a href="#" class="img-project__btn">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="img-project">
+              <img src="img/our-project-4.jpg" alt="">
+              <div class="img-project__overlay">
+                <div class="img-project__text text-less">
+                  <p>ДОСУГОВЫЙ
+                    <br>ЦЕНТР</p>
+                  <a href="#" class="img-project__btn">Подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="img-project">
+              <img src="img/our-project-5.jpg" alt="">
+              <div class="img-project__overlay">
+                <div class="img-project__text text-less">
+                  <p>ДОСУГОВЫЙ
+                    <br>ЦЕНТР</p>
+                  <a href="#" class="img-project__btn">Подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="our-projects__link-box">
+        <a href="#" class="our-projects__btn">ВСЕ ПРОЕКТЫ</a>
+        </div>
+      </div>
+    </div>
+    <div class="contact-us">
+      <div class="contact-us__container container">
+        <div class="contact-us__title title">
+          <h2>Связаться с нами</h2>
+        </div>
+        <div class="contact-us__body">
+          <div class="contact-us__form form">
+            <form action="#">
+              <input type="text" placeholder="Имя">
+              <input type="text" placeholder="Номер телефона*">
+              <input type="text" placeholder="E-mail*">
+              <input type="text" placeholder="Интересующий товар/услуга">
+              <textarea placeholder="Сообщение*"></textarea>
+              <label>
+                <input class="contact-us__checkbox" type="checkbox" checked> Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
+              </label>
+              <button class="contact-us__btn btn-grey" type="submit">ОТПРАВИТЬ</button>
+            </form>
+          </div>
+          <div class="contact-us__form-images">
+            <img src="img/contactus-img.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__inner">
+        <div class="footer__item">
+          <a href="#">
+            <img src="img/logo-footer.png" alt="logo">
+          </a>
+        </div>
+        <div class="footer__item">
+          <div class="footer__title">Информация</div>
+          <ul class="footer__menu">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Галерея</a></li>
+            <li><a href="#">Проекты</a></li>
+            <li><a href="#">Сертификаты</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="footer__item">
+          <div class="footer__title">Контакты</div>
+            <p class="footer__contact-link footer__contank-adres">100000, Республика Казахстан,<br> г. Караганда, ул. Телевизионная 10</p>
+            <p class="footer__contact-link footer__contank-phone"><a href="+380000000000">+38 (000) 000 00 00</a></p>
+            <p class="footer__contact-link footer__contact-email"><a href="mailto:mail@gmail.com">mail@gmail.com</a></p>
+        </div>
+        <div class="footer__item">
+          <div class="footer__title">Социальные сети</div>
+          <ul class="footer__social">
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <div class="footer__copy">
+        <p>© 2019 Digital Project. Все права защищены.</p>
+      </div>
+  </footer>
+  <script src="js/jquery.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
